@@ -855,6 +855,8 @@ spec:
               observer:
                 description: observer
                 properties:
+                  gitToken:
+                    type: string
                   image:
                     type: string
                   imagePullPolicy:

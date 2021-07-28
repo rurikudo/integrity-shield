@@ -128,6 +128,7 @@ type Observer struct {
 	TargetResourceConfigName string              `json:"targetResourceConfigName,omitempty"`
 	TargetResourceConfigKey  string              `json:"targetResourceConfigKey,omitempty"`
 	Interval                 string              `json:"interval,omitempty"`
+	GitToken                 string              `json:"gitToken,omitempty"`
 	TargetResourceConfig     string              `json:"targetResourceConfig,omitempty"`
 }
 
